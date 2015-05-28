@@ -87,7 +87,6 @@ gulp.task('create-org-component-rjs', function() {
     out: 'component.js',
     exclude: ['libraries'],
     componentNamespace: 'com-create-organization',
-    componentModules: ['component', 'mejs', 'locales', 'modal', 'utils'],
     removeCombined: true,
     findNestedDependencies: true,
     optimizeCss: 'none',
