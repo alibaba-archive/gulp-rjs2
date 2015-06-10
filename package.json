@@ -1,7 +1,7 @@
 {
   "name": "gulp-rjs2",
   "description": "Requirejs plugin for gulp, support component mode.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
   "homepage": "https://github.com/teambition/gulp-rjs2",
   "author": [
@@ -24,19 +24,20 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "standard && gulp test"
   },
   "dependencies": {
-    "gulp-util": "^3.0.4",
-    "requirejs": "^2.1.17",
+    "gulp-util": "^3.0.5",
+    "requirejs": "^2.1.18",
     "through2": "^1.1.1"
   },
   "devDependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^3.9.0",
     "gulp-rimraf": "^0.1.1",
-    "gulp-jshint": "^1.10.0",
-    "gulp-mocha": "^2.0.1",
+    "gulp-jshint": "^1.11.0",
+    "gulp-mocha": "^2.1.1",
     "gulp-sequence": "^0.3.2",
-    "merge2": ">=0.3.2"
+    "standard": "^4.0.1",
+    "merge2": ">=0.3.5"
   }
 }
