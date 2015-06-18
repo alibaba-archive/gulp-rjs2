@@ -6,8 +6,8 @@
  */
 
 var fs = require('fs')
-var through = require('through2')
 var gutil = require('gulp-util')
+var through = require('through2')
 var requirejs = require('requirejs')
 
 var push = Array.prototype.push
